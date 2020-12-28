@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+.effect {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+    border: 1px solid orange;
+    margin: 5rem;
+    transition: color 0.25s linear;
+    position: relative;
+    z-index: 1;
+}
+
+.effect::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: orange;
+    z-index: -1;
+    transition: width 0.25s linear;
+}
+
+.effect:hover::before {
+    width: 100%;
+}
+
+.effect:hover {
+    color: white;
+}

@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+}
+
+div.main-content {
+    height: 100vh;
+    position: relative;
+}
+
+div.main-content header {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+div.main-content header ul li {
+    display: inline-block;
+}
+
+div.main-content header ul li a {
+    font-size: 13px;
+}
+
+div.main-content header ul li a:hover {
+    cursor: pointer;
+}
+
+div.main-content header ul li a.text-link {
+    color: #000000de;
+    margin-right: 3px;
+}
+
+div.main-content header ul li a.text-link:hover {
+    opacity: 0.85;
+}
+
+div.main-content header ul li a.icon-browse {
+    margin: 0 6px;
+    opacity: 0.55;
+}
+
+div.main-content header ul li a.icon-browse:hover {
+    opacity: 1;
+}
+
+div.main-content header ul li a.btn-login {
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    color: #fff;
+    padding: 5px 12px;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+}
+
+div.main-content div.content {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.main-content div.content img.logo {
+    width: 272px;
+}
+
+div.main-content div.content .box-search {
+    position: relative;
+    width: 480px;
+    margin: 10px auto;
+}
+
+div.main-content div.content .box-search input {
+    padding: 12px 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px;
+    width: calc(100% - 90px);
+}
+
+div.main-content div.content .box-search input:focus {
+    outline: none;
+}
+
+div.main-content div.content .box-search .icon {
+    position: absolute;
+    width: 20px;
+    top: 12px;
+}
+
+div.main-content div.content .box-search .icon:hover {
+    cursor: pointer;
+}
+
+div.main-content div.content .box-search .icon.icon-search {
+    left: 15px;
+}
+
+div.main-content div.content .box-search .icon.icon-keyboard {
+    height: 20px;
+    right: 40px;
+    background: url('./../images/keyboard.png') no-repeat center;
+}
+
+div.main-content div.content .box-search .icon.icon-speak {
+    right: 15px;
+}
+
+div.main-content div.content .buttons {
+    margin-bottom: 20px;
+}
+
+div.main-content div.content .buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.main-content div.content .buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+div.main-content div.content .language {
+    font-size: 13px;
+}
+
+div.main-content div.content .language a {
+    color: #1a0dab;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+div.main-content div.content .language a:hover {
+    color: #609;
+}
+
+div.main-content footer {
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #dadce0;
+    border-bottom: 1px solid #dadce0;
+}
+
+div.main-content footer p.national {
+    padding: 10px 20px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 14px;
+    color: #70757a;
+}
+
+div.main-content footer div.activity {
+    padding: 10px 15px;
+}
+
+div.main-content footer div.activity ul {
+    display: inline-block;
+    list-style: none;
+}
+
+div.main-content footer div.activity ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+div.main-content footer div.activity ul li a {
+    font-size: 14px;
+    color: #70757a;
+    text-decoration: none;
+}
+
+div.main-content footer div.activity ul li a:hover {
+    color: #ea4335;
+    cursor: pointer;
+}
+
+div.main-content footer div.activity ul.activity-right {
+    float: right;
+}

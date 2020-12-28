@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+.line {
+    margin: 5rem auto;
+    text-align: center;
+    position: relative;
+}
+
+.line::before {
+    content: '';
+    height: 0.6rem;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line-text {
+    display: inline-block;
+    padding: 1rem;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
