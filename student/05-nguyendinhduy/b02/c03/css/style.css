@@ -1,12 +1,12 @@
-html{
-    font-size: 62,5%;
+html {
+    font-size: 62.5%;
 }
 
-body{
+body {
     box-sizing: border-box;
 }
-    
-.wrapper{
+
+.wrapper {
     width: 622px;
     height: 118px;
     background-color: #d8ec66;
@@ -15,7 +15,7 @@ body{
     position: relative;
 }
 
-.left{
+.left {
     width: 102px;
     height: 102px;
     background-color: white;
@@ -24,7 +24,7 @@ body{
     top: 10px;
     left: 210px;
 }
-.right{
+.right {
     width: 102px;
     height: 102px;
     background-color: blue;
@@ -34,7 +34,7 @@ body{
     right: 190px;
 }
 
-.fa-facebook-f{
+/* .fa-facebook-f{
     width: 102px;
     height: 102px;
     font-size: 70px;
@@ -49,4 +49,33 @@ body{
     color: white;
     margin-top: 15px;
     margin-left: 29px;
+} */
+
+/* .box {
+    width: 30rem;
+    background-color: #d8ec66;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.box-icon {
+    margin: 2rem 0.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 10rem;
+    display: inline-block;
+}
+
+.white {
+    background-color: white;
+    color: blue;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+} */
