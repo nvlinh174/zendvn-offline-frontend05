@@ -1,0 +1,18 @@
+*{
+    margin: 0xp;
+    padding: 0px;
+}
+.main{
+    text-align: center;
+}
+.block{
+    border: 1px solid #ef7172;
+    display: inline-block;
+   
+}
+
+.box{
+    border: 5px solid #15d317;
+    margin: 2px;
+    padding: 5px;
+}

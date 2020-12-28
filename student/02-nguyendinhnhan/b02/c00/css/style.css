@@ -1,0 +1,30 @@
+.box{
+    margin: 50px auto;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background-color: purple;
+    position: relative;
+}
+
+.box::before{
+    content: '';
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    position: absolute;
+    top: -30px;
+    left: -30px; 
+    z-index: -1;
+}
+.box::after{
+    content: '';
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    z-index: -2;  
+}

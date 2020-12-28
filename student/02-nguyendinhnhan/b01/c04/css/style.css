@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.block{
+    width: 960px;
+
+}
+
+.big-pic{
+    position: relative;
+    margin: 20px auto;
+}
+
+.small-pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
