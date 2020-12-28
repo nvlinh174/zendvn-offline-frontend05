@@ -1,0 +1,189 @@
+html{
+    font-size: 62,5%;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.header{
+    width:  18rem;
+    height: 5rem;
+    line-height: 5rem;
+    margin-left: 1200px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+.gmail{
+    position: absolute;
+    top: 10px;
+    right: 255px;
+}
+.image{
+    position: absolute;
+    top: 10px;
+    right: 172px;
+}
+.menu{
+    position: absolute;
+    top: 39px;
+    right: 134px;
+}
+.login{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(52, 163, 238);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    top: 29px;
+    right: 0px;
+
+}
+.content{
+    width: 1533px;
+    height: 460px;
+    margin-top: 100px;
+}
+
+.content .title{
+    width: 260px;
+    height: 82px;
+    margin: auto;
+    font-size: 55px;
+    font-weight:bold;
+    font-family: "Trirong", serif;
+}
+
+.content .title .key-g{
+    color: #3D80F7;
+}
+.key-02,
+.key-06{
+    color: #eb2e1f;
+}
+
+.key-03{
+    color: #fdbd06;
+}
+.key-05{
+    color: #41ad58;
+}
+
+.input{
+    width: 590px;
+    height: 50px;
+    border: 1px solid rgb(177, 172, 172);
+    border-radius: 40px;
+    margin: auto;
+    position: relative;
+}
+
+.button{
+    width: 450px;
+    height: 30px;
+    margin: 20px auto;
+    line-height: 71px;
+    text-align: center;
+}
+
+.button .btn{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+    color: #9f9392;
+}
+
+.button .btn-01{
+   margin-right: 10px;
+}
+img.search{
+    width: 30px;
+    margin: 10px;
+}
+img.keyboard{
+    width: 30px;
+    position: absolute;
+    top: 13px;
+    right: 64px;
+}
+img.voice{
+    width: 30px;
+    height: 32px;
+    position: absolute;
+    top: 9px;
+    right: 20px;
+}
+
+.description{
+    width: 490px;
+    height: 71px;
+    margin: auto;
+    line-height: 71px;
+    text-align: center;
+}
+
+.description .des{
+    font-size: 20px;
+}
+.description .language{
+    font-size: 18px;
+    color: #3e88f3;
+}
+
+.footer{
+    width: 1533px;
+    height: 100px;
+    border: 1px solid #eaeaea;
+    background-color: rgb(22, 157, 247);
+    position: relative;
+}
+
+.footer .up{
+    width: 1533px;
+    height: 50px;
+    background-color: #f5f5f5;
+}
+
+.footer .up .content-up{
+    width: 1533px;
+    height: 50px;
+    color: #9f9392;
+    position: absolute;
+    top: 16px;
+    left: 19px;
+}
+.footer .down{
+    width: 1533px;
+    height: 50px;
+    border: 1px solid #eaeaea;
+    background-color: #f5f5f5;
+    position: relative;
+    color: #9f9392;
+}
+.footer .down .left{
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 16px;
+    left: 19px;
+    margin-right: 20px;
+}
+.footer .down .left span{
+    margin-right: 20px;
+}
+.footer .down .right{
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 16px;
+    right: 19px;
+}
+
+.footer .down .right span{
+    margin-right: 20px;
+}
