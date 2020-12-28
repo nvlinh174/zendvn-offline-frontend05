@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.main-content {
+    margin: 30px auto;
+    width: 850px;
+    background-color: yellow;
+}
+
+div.main-content div.header {
+    height: 316px;
+    background: url("../images/thumb.jpg") no-repeat center;
+}
+
+div.avatar {
+    width: 156px;
+    height: 156px;
+    border: 4px solid #fffefe;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);    
+    border-radius: 50%;
+}
+
+div.avatar > img 
+{
+    
+    width: 100%;
+    height: 100%;
+   
+}
+.avatar1
+{
+    width: 156px;
+    height: 156px;
+    /* border: 4px solid #fffefe;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);    
+    border-radius: 50%; */
+}

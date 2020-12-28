@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid purple;
+    text-align: center;
+    line-height: 500px;
+    background-color: purple;
+    font-size: 40px;
+    color: white;
+    margin: 50px auto;
+    position: relative;
+    
+    
+}
+.box:before{
+    content: '';
+    position: absolute ;
+    top: -30px;
+    left: -30px;
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    z-index: -1;
+}
+.box:after{
+    content: '';
+    position: absolute ;
+    top: 30px;
+    left: 30px;
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    z-index: -1;
+}

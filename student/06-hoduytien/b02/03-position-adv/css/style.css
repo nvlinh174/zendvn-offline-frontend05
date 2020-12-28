@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+	width: 180px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+    background-color: #87e712;
+    position: fixed;
+    font-size: 20px;
+}
+
+.top-left{
+	top: 0px;
+	left: 0px;
+}
+
+.top-right{
+	top: 0px;
+	right: 0px;
+}
+
+.bottom-left{
+	left: 0px;
+	bottom: 0px;
+}
+
+.bottom-right{
+	bottom: 0;
+	right: 0;
+}
+
+.top-center {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right-center {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.bottom-center {
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-center {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.center-center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}	
+
+.center-center > div{
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+}	
+
+.center-top-left{
+    transform: translate(-100%, -100%);
+    top: 0px;
+    left: 0px;
+}
+
+.center-top-right{
+    transform: translate(100%, -100%);
+    top: 0px;
+    right: 0px;
+
+}
+
+.center-bottom-left{
+    transform: translate(-100%, 100%);
+    bottom: 0px;
+    left: 0px;
+}
+
+.center-bottom-right{
+    transform: translate(100%, 100%);
+    bottom: 0px;
+    right: 0px;
+}
