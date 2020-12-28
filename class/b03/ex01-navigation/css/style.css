@@ -1,0 +1,70 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c76e94;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 5rem auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+.menu {
+    background: linear-gradient(to right, #993c8b, #8374a2);
+    padding: 2rem 1rem;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 1rem;
+}
+
+.menu ul li a {
+    color: rgb(165, 162, 162);
+    padding: 2rem 3rem;
+    display: inline-block;
+    transition: all 0.2s linear;
+    border-radius: 3rem;
+}
+
+.menu ul li:hover a {
+    background-color: black;
+    color: white;
+}
+
+.menu li.socials {
+    margin-left: auto;
+}
+
+.menu li.socials a {
+    padding: 1rem 2rem;
+}
+
+.content {
+    height: 50rem;
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+

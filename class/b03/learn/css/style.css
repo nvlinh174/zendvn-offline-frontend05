@@ -1,0 +1,48 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.list {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    width: 100%;
+    height: 50vh;
+    background-color: green;
+    flex-wrap: wrap;
+    /* align-items:; */
+justify-content: space-evenly;
+}
+
+.item {
+    background-color: orange;
+    margin: 1rem;
+    font-size: 3rem;
+    width: 20%;
+}
+
+.item:first-child {
+    font-size: 10rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+.box {
+    display:flex;
+}
+
+.box > div {
+    width: 400px;
+}
+
+.box img {
+    width: 100%;
+    height: 20rem;
+}
