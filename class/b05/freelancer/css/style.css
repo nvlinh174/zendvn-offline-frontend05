@@ -1,0 +1,221 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); */
+
+:root {
+    --color-black: #2c3e50;
+    --color-green: #1abc9c;
+    --color-green-rgb: 26, 188, 156;
+    --color-white: #ffffff;
+    --ff-montserrat: 'Montserrat', sans-serif;
+    --ff-lato: 'Lato', sans-serif;
+    --transition: 0.3s;
+    --spacing: 4rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--ff-lato);
+    font-size: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--ff-montserrat);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+.bg-black {
+    background-color: var(--color-black);
+}
+.bg-green {
+    background-color: var(--color-green);
+}
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.line {
+    width: 30rem;
+    margin: 3rem auto;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.line::before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.line.line-light::before {
+    background-color: var(--color-white);
+}
+
+.line.line-dark::before {
+    background-color: var(--color-black);
+}
+
+.line-text {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.section-title {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-padding {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+
+/* =========== NAVBAR ============= */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: var(--ff-montserrat);
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.menu {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.menu li {
+    margin-left: 1.5rem;
+}
+
+.menu li a {
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 700;
+    display: inline-block;
+    padding: 1.5rem;
+    transition: all var(--transition);
+}
+
+.menu li a:hover {
+    color: var(--color-green);
+}
+
+/* =========== BANNER ============= */
+.section-banner {
+    padding: 11rem 0;
+}
+
+.banner-content {
+    color: var(--color-white);
+    text-align: center;
+}
+
+.banner-content img {
+    width: 22rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.banner-content h1 {
+    font-size: 6.4rem;
+}
+
+.banner-content p {
+    font-size: 2.4rem;
+}
+
+/* =========== PORTFOLIO ============= */
+.section-portfolio {
+    height: 200vh;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--spacing));
+}
+
+.portfolio-item {
+    width: calc(100% / 3 - var(--spacing));
+    margin-left: var(--spacing);
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-item .overlay {
+    position: absolute;
+    background-color: rgba(var(--color-green-rgb), 0.8);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition);
+    /* cursor: pointer; */
+}
+
+.portfolio-item:hover .overlay {
+    /* display: flex; */
+    opacity: 1;
+    visibility: visible;
+}
+
+.portfolio-item .overlay a {
+    color: var(--color-white);
+    font-size: 7rem;
+}
