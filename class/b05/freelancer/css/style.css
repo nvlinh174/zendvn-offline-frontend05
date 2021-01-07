@@ -44,7 +44,7 @@ img {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
@@ -58,6 +58,16 @@ img {
 }
 .bg-white {
     background-color: var(--color-white);
+}
+
+.text-black {
+    color: var(--color-black);
+}
+.text-green {
+    color: var(--color-green);
+}
+.text-white {
+    color: var(--color-white);
 }
 
 .line {
@@ -109,6 +119,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 3;
+    padding: 1rem 0;
 }
 
 nav .container {
@@ -123,6 +134,18 @@ nav .container {
     text-transform: uppercase;
     font-weight: 700;
     color: var(--color-white);
+}
+
+.toggle-menu {
+    display: none;
+    background-color: var(--color-green);
+    border: 0;
+    padding: 1.6rem;
+    color: var(--color-white);
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .menu {
@@ -175,18 +198,20 @@ nav .container {
 
 /* =========== PORTFOLIO ============= */
 .section-portfolio {
-    height: 200vh;
+    color: var(--color-black);
 }
 
 .portfolio {
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1 * var(--spacing));
+    margin-bottom: calc(-1 * var(--spacing));
 }
 
 .portfolio-item {
     width: calc(100% / 3 - var(--spacing));
     margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
@@ -217,5 +242,71 @@ nav .container {
 
 .portfolio-item .overlay a {
     color: var(--color-white);
+    /* color: inherit; */
     font-size: 7rem;
 }
+
+/* =========== ABOUT ============= */
+.about-content {
+    display: flex;
+    width: calc(100% / 3 * 2);
+    margin: auto;
+}
+
+.about-content p {
+    width: 50%;
+    padding: 0 2.4rem;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+}
+
+.section-about .btn-wrapper {
+    text-align: center;
+}
+
+.section-about .btn-about {
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+    padding: 1.6rem 2.6rem;
+    border-radius: 1rem;
+    transition: all var(--transition);
+    display: inline-block;
+    
+}
+
+.section-about .btn-about:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
+
+/* =========== CONTACT ============= */
+.section-contact form {
+    width: calc(100% / 3 * 2);
+    margin: auto;
+    padding: 0 2.4rem;
+}
+
+/* .form-group input,
+.form-group textarea {
+    width: 100%;
+    border: 0;
+} */
+
+.form-group {
+    border-bottom: 1px solid var(--color-black);
+    padding-bottom: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.form-control {
+    width: 100%;
+    border: 0;
+    font-size: 2.4rem;
+    font-family: inherit;
+    resize: none;
+}
+
+.form-control:focus {
+    outline: 0;
+}
+
